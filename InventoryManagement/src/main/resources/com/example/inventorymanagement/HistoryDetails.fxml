@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inventorymanagement.HistoryDetails">
+   <children>
+      <TableView layoutX="25.0" layoutY="28.0" prefHeight="323.0" prefWidth="683.0" fx:id="table">
+        <columns>
+          <TableColumn prefWidth="37.999969482421875" text="ID" fx:id="id"/>
+          <TableColumn text="Name" fx:id="Name"/>
+            <TableColumn prefWidth="108.66665649414062" text="CNIC" fx:id="CNIC1"/>
+            <TableColumn prefWidth="75.0" text="phone No." fx:id="Phone"/>
+            <TableColumn prefWidth="75.0" text="blood type" fx:id="blood"/>
+            <TableColumn prefWidth="75.0" text="address" fx:id="address"/>
+            <TableColumn prefWidth="75.0" text="city" fx:id="city2"/>
+            <TableColumn prefWidth="38.666748046875" text="age" fx:id="aging"/>
+            <TableColumn prefWidth="48.0" text="gender" fx:id="MYG"/>
+            <TableColumn prefWidth="75.0" text="status" fx:id="stats"/>
+        </columns>
+      </TableView>
+      <Button layoutX="320.0" layoutY="359.0" mnemonicParsing="false" onAction="#onActionB" prefHeight="34.0" prefWidth="87.0" stylesheets="@CSSsheet.css" text="BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>
